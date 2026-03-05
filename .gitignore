@@ -1,0 +1,15 @@
+# Ignore the entire data directory (raw, processed, and spectrograms)
+data/
+
+# Ignore the entire models directory (saved .h5, .pkl, and .scaler files)
+models/saved_models/
+
+# Ignore individual large binary files just in case
+*.h5
+*.pkl
+*.zip
+*.csv
+
+# Ignore Python environment and cache
+__pycache__/
+.env
